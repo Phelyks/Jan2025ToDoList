@@ -29,7 +29,7 @@ The **Clear List** button allows users to remove all tasks from the list at once
 ## How to Run the Project
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/todo-list-app.git
+   git clone https://github.com/Phelyks/Jan2025ToDoList
    ```
 
 2. Navigate to the project folder:
