@@ -1,31 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>To Do List</title>
-    <link rel="stylesheet" href="./styles.css">
-    <link rel="icon" href="./Assets/favicon.png">
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="icon" href="./Assets/favicon.png" />
     <script defer src="./script.js"></script>
-</head>
-<body>
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-container">
+        <img src="./Assets/favicon.png" alt="homeicon" />
+        <h1>Felix Omondi</h1>
+      </div>
+    </div>
     <div class="wrapper">
-        <div id="heading">
-            To Do List:
-        </div>
-        <div id="inputContainer">
-            <input type="text" id="todoInput" placeholder="Enter to-do here" />
-            <button id="addButton">Add</button>
-        </div>
-        <div id="toDoList">
-            <ul id="listItems"></ul>
-        </div>
-        <div id="clearButton">
-            <button id="clearItems">Clear List</button>
-        </div>
+      <div id="heading">To Do List:</div>
+      <div id="inputContainer">
+        <input type="text" id="todoInput" placeholder="Enter to-do here" />
+        <button id="addButton">Add</button>
+      </div>
+      <div id="toDoList">
+        <ul id="listItems"></ul>
+      </div>
+      <div id="clearButton">
+        <button id="clearItems">Clear List</button>
+      </div>
     </div>
     <div class="footer">
-        Footer
+      <div class="footer-container">
+        <div id="left">
+          <h2>Contact Me:</h2>
+        </div>
+        <div id="spacer"></div>
+        <div id="right">
+          <a href="http://" target="_blank" rel="noopener noreferrer"
+            ><img src="" alt="website"
+          /></a>
+          <a href="http://" target="_blank" rel="noopener noreferrer"
+            ><img src="" alt="whatsapp"
+          /></a>
+          <a href="http://" target="_blank" rel="noopener noreferrer"
+            ><img src="" alt="twitter"
+          /></a>
+          <a href="http://" target="_blank" rel="noopener noreferrer"
+            ><img src="" alt="tiktok"
+          /></a>
+          <a href="http://" target="_blank" rel="noopener noreferrer"
+            ><img src="" alt="linkeind"
+          /></a>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
