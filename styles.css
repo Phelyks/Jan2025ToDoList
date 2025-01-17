@@ -228,6 +228,15 @@ body {
   cursor: pointer;
 }
 
+.material-icons {
+  color:  rgba(240, 248, 255, 0.88);
+  transition: color 0.3s;
+}
+
+a:hover .material-icons {
+  color: #0073b1;
+}
+
 /* <<<<< Mobile Version >>>>>> */
 
 @media screen and (max-width: 700px) {
