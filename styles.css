@@ -38,7 +38,7 @@ body {
   border-radius: 20px;
 }
 
-.header-container img {
+#headerimage {
   width: 40px;
   border-radius: 50%;
   cursor: pointer;
